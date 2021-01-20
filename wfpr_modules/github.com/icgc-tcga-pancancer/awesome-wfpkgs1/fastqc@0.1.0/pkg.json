@@ -1,0 +1,38 @@
+{
+    "name": "fastqc",
+    "version": "0.1.0",
+    "description": "FastQC tool",
+    "main": "fastqc",
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "deprecated": false,
+    "keywords": [
+        "bioinformatics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ICGC-TCGA-PanCancer/awesome-wfpkgs1.git"
+    },
+    "container": {
+        "registries": [
+            {
+                "registry": "ghcr.io",
+                "type": "docker",
+                "org": "icgc-tcga-pancancer",
+                "default": true
+            }
+        ]
+    },
+    "dependencies": [],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "Junjun Zhang",
+            "email": "junjun.zhang@oicr.on.ca"
+        }
+    ],
+    "license": "MIT",
+    "bugReport": "https://github.com/ICGC-TCGA-PanCancer/awesome-wfpkgs1/issues",
+    "homepage": "https://github.com/ICGC-TCGA-PanCancer/awesome-wfpkgs1#readme"
+}
