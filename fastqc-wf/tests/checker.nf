@@ -15,7 +15,7 @@ params.container_version = ""
 params.input_file = ""
 params.expected_output = ""
 
-include { fastqcWf } from '../fastqc-wf'
+include { FastqcWf } from '../fastqc-wf'
 
 Channel
   .fromPath(params.input_file, checkIfExists: true)
@@ -48,12 +48,12 @@ workflow checker {
     expected_output
 
   main:
-    fastqcWf(
+    FastqcWf(
       input_file
     )
 
     file_diff(
-      fastqcWf.out.output_file,
+      FastqcWf.out.output_file,
       expected_output
     )
 }

@@ -1,6 +1,6 @@
 {
     "name": "fastqc-wf",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "FastQC workflow",
     "main": "fastqc-wf",
     "scripts": {
@@ -16,7 +16,7 @@
     },
     "dependencies": [
         "github.com/icgc-tcga-pancancer/awesome-wfpkgs1/fastqc@0.1.0",
-        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.0.1"
+        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.1.0"
     ],
     "devDependencies": [],
     "contributors": [
