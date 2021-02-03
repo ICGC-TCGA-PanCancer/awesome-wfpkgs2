@@ -2,4 +2,4 @@ project_name: awesome-wfpkgs2
 license: MIT
 repo_type: git
 repo_server: github.com
-repo_account: ICGC-TCGA-PanCancer
+repo_account: icgc-tcga-pancancer

@@ -13,8 +13,9 @@ params.publish_dir = ""  // set to empty string will disable publishDir
 params.input_file = ""
 params.output_pattern = "*.html"  // fastqc output html report
 
-include { fastqc } from "./wfpr_modules/github.com/icgc-tcga-pancancer/awesome-wfpkgs1/fastqc@0.1.0/fastqc"
+include { fastqc } from "./wfpr_modules/github.com/icgc-tcga-pancancer/awesome-wfpkgs1/fastqc@0.2.0/fastqc"
 include { cleanupWorkdir } from "./wfpr_modules/github.com/icgc-argo/demo-wfpkgs/demo-utils@1.1.0/main"
+
 
 
 workflow FastqcWf {
@@ -27,5 +28,5 @@ workflow FastqcWf {
     cleanupWorkdir(fastqc.out, true)
 
   emit:
-    output_file = fastqc.out.output
+    output_file = fastqc.out.output_file
 }

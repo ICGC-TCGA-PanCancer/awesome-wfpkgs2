@@ -8,24 +8,26 @@
     },
     "deprecated": false,
     "keywords": [
-        "bioinformatics"
+        "bioinformatics",
+        "seq",
+        "qc metrics"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/ICGC-TCGA-PanCancer/awesome-wfpkgs2.git"
+        "url": "https://github.com/icgc-tcga-pancancer/awesome-wfpkgs2.git"
     },
     "dependencies": [
-        "github.com/icgc-tcga-pancancer/awesome-wfpkgs1/fastqc@0.1.0",
-        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.1.0"
+        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.1.0",
+        "github.com/icgc-tcga-pancancer/awesome-wfpkgs1/fastqc@0.2.0"
     ],
     "devDependencies": [],
     "contributors": [
         {
-            "name": "Junjun",
-            "email": "you@example.com"
+            "name": "Junjun Zhang",
+            "email": "junjun.ca@gmail.com"
         }
     ],
     "license": "MIT",
-    "bugReport": "https://github.com/ICGC-TCGA-PanCancer/awesome-wfpkgs2/issues",
-    "homepage": "https://github.com/ICGC-TCGA-PanCancer/awesome-wfpkgs2#readme"
+    "bugReport": "https://github.com/icgc-tcga-pancancer/awesome-wfpkgs2/issues",
+    "homepage": "https://github.com/icgc-tcga-pancancer/awesome-wfpkgs2#readme"
 }
