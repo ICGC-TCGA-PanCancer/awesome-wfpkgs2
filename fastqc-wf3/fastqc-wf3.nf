@@ -12,6 +12,8 @@ params.publish_dir = ""  // set to empty string will disable publishDir
 // tool specific parmas go here, add / change as needed
 params.input_file = ""
 params.output_pattern = "*.html"  // fastqc output html report
+params.another = ""
+
 
 // include section starts
 include { FastqcWf2 } from "./wfpr_modules/github.com/icgc-tcga-pancancer/awesome-wfpkgs2/fastqc-wf2@0.1.2/fastqc-wf2"
