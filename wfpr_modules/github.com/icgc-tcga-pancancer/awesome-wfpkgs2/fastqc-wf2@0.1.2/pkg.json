@@ -1,0 +1,33 @@
+{
+    "name": "fastqc-wf2",
+    "version": "0.1.2",
+    "description": "FastQC workflow",
+    "main": "fastqc-wf2",
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "deprecated": false,
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-tcga-pancancer/awesome-wfpkgs2.git"
+    },
+    "dependencies": [
+        "github.com/icgc-tcga-pancancer/awesome-wfpkgs2/fastqc-wf@0.2.0",
+        "github.com/icgc-argo/demo-wfpkgs/demo-utils@1.2.0"
+    ],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "Junjun Zhang",
+            "email": "junjun.ca@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "bugReport": "https://github.com/icgc-tcga-pancancer/awesome-wfpkgs2/issues",
+    "homepage": "https://github.com/icgc-tcga-pancancer/awesome-wfpkgs2#readme"
+}
