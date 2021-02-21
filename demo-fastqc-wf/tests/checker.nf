@@ -6,17 +6,19 @@
 */
 
 nextflow.enable.dsl = 2
-version = '0.1.0'  // package version
+version = '0.2.0'  // package version
 
 // universal params
 params.publish_dir = ""
+params.container = ""
+params.container_registry = ""
 params.container_version = ""
 
 // tool specific parmas go here, add / change as needed
 params.input_file = ""
 params.expected_output = ""
 
-include { DemoFastqcWf } from '../demo-fastqc-wf' params(['cleanup': false])
+include { DemoFastqcWf } from '../demo-fastqc-wf' params(['cleanup': false, *:params])
 // include section starts
 // include section ends
 
